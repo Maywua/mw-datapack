@@ -1,0 +1,2 @@
+execute if score @s weapons_skill_timer matches 1 run function mw:weapons/long_sword/skills/1/duration/dumb/damage
+execute if score @s weapons_skill_timer matches 1 run function mw:weapons/long_sword/skills/1/duration/dumb/playsound

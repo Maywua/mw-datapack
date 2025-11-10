@@ -1,0 +1,1 @@
+execute as @a[scores={player_critical_hit=1},predicate=mw:weapons/holding/feature/is_id1] run function mw:weapons/global/weapon_feature/id1/main

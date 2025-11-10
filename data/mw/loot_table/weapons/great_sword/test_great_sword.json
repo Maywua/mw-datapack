@@ -1,0 +1,58 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"max_damage": 350,
+								"max_stack_size": 1,
+								"attribute_modifiers": [
+									{
+										"id": "base_attack_damage",
+										"amount": 8,
+										"operation": "add_value",
+										"type": "attack_damage",
+										"slot": "mainhand"
+									},
+									{
+										"id": "base_attack_speed",
+										"amount": -3.2,
+										"operation": "add_value",
+										"type": "attack_speed",
+										"slot": "mainhand"
+									}
+								],
+								"consumable": {
+									"animation": "block",
+									"consume_seconds": 4,
+									"has_consume_particles": false,
+									"sound": "block.amethyst_block.chime"
+								},
+								"use_cooldown": {
+									"seconds": 4,
+									"cooldown_group": "weapons_great_sword"
+								},
+								"item_model": "mw:weapons/long_sword/items/test_long_sword",
+								"custom_data": {
+									"is_weapon": 1,
+									"weapon_type": "great_sword"
+								},
+								"item_name": {
+									"text": "大剑（仅测试）",
+									"color": "#ffffff",
+									"italic": false
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,2 @@
+execute if score @s player_is_holding_long_sword matches 1.. run scoreboard players set @s player_holding_item_type_1 1
+execute if score @s player_is_holding_great_sword matches 1.. run scoreboard players set @s player_holding_item_type_1 2

@@ -1,0 +1,1 @@
+playsound entity.player.attack.sweep player @s ~ ~1.2 ~ 3 .95

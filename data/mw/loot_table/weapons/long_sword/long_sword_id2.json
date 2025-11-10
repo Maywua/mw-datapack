@@ -1,0 +1,45 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"max_damage": 350,
+								"max_stack_size": 1,
+								"attribute_modifiers": [
+									{
+										"id": "base_attack_speed",
+										"amount": 4,
+										"operation": "add_value",
+										"type": "attack_speed",
+										"slot": "mainhand"
+									}
+								],
+								"custom_model_data": {
+									"floats": [0]
+								},
+								"item_model": "mw:weapons/long_sword/items/test_long_sword",
+								"custom_data": {
+									"is_weapon": 1,
+									"weapon_type": "long_sword",
+									"weapon_id": 2
+								},
+								"item_name": {
+									"translate": "mw.weapons.long_sword_2.name",
+									"color": "#ffffff",
+									"italic": false
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

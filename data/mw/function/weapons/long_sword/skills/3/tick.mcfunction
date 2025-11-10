@@ -1,0 +1,1 @@
+execute as @a[scores={ls_s3_cooldown_timer=1..}] run function mw:weapons/long_sword/skills/3/cooldown_tick

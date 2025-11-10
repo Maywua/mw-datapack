@@ -1,0 +1,2 @@
+execute as @a[scores={ls_s1_cast_stage=1..3}] run function mw:weapons/long_sword/skills/1/stage/recast_tick
+execute as @a[scores={ls_s1_cooldown_timer=1..}] run function mw:weapons/long_sword/skills/1/stage/cooldown_tick

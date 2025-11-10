@@ -1,0 +1,1 @@
+execute store result storage mw:damage_counter damage.critical_multiplier float 1 run scoreboard players get $100 temp_scoreboard

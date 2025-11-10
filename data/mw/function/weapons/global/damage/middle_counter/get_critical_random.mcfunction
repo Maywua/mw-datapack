@@ -1,0 +1,1 @@
+$execute store success storage mw:damage_counter damage.is_critical float 1 if predicate mw:chance/$(critical_rate)

@@ -1,0 +1,1 @@
+$summon item ~ ~ ~ {Item:{id:"firework_star",count:1,components:{item_model:"mw:other/empty"}},Age:5990,PickupDelay:32767,Passengers:[{id:"text_display",Tags:["damage_indicator"],text:"$(damage)",alignment:"center",transformation:{scale:[1f,1f,1f],translation:[0f,0f,0f],left_rotation:[0,0,0,1],right_rotation:[0,0,0,1]},billboard:"center"}],Motion:[0f,0.01f,0f]}

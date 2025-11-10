@@ -1,0 +1,13 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"slots": {
+			"container.5": {
+				"predicates": {
+					"custom_data": { "is_weapon": 1 }
+				}
+			}
+		}
+	}
+}

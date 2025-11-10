@@ -1,0 +1,151 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:firework_star",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"max_damage": 350,
+								"max_stack_size": 1,
+								"attribute_modifiers": [
+									{
+										"id": "base_attack_speed",
+										"amount": 4,
+										"operation": "add_value",
+										"type": "attack_speed",
+										"slot": "mainhand"
+									}
+								],
+								"custom_model_data": {
+									"floats": [0]
+								},
+								"item_model": "mw:weapons/long_sword/test_long_sword",
+								"custom_data": {
+									"is_weapon": 1,
+									"weapon_type": "long_sword"
+								},
+								"item_name": {
+									"text": "长剑",
+									"color": "#ffffff",
+									"italic": false
+								},
+								"lore": [
+									{
+										"text": "[",
+										"color": "#ffffff",
+										"bold": true,
+										"italic": false,
+										"extra": [
+											{
+												"type": "keybind",
+												"keybind": "key.use",
+												"color": "#ffffff",
+												"extra": [
+													{
+														"text": "]",
+														"color": "#ffffff",
+														"extra": [
+															{
+																"text": "挥斩",
+																"color": "green"
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"text": "消耗一层战意，对范围敌人造成伤害，",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "第三次释放将获得强化",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "[",
+										"color": "#ffffff",
+										"bold": true,
+										"italic": false,
+										"extra": [
+											{
+												"type": "keybind",
+												"keybind": "key.sneak",
+												"color": "#ffffff",
+												"extra": [
+													{
+														"text": "]",
+														"color": "#ffffff",
+														"extra": [
+															{
+																"text": "二连斩",
+																"color": "green"
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"text": "原地跃起，消耗一层战意发射三道剑气，",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "短暂滞空后向面朝方向冲刺，落地时再次造成范围伤害",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "[",
+										"color": "#ffffff",
+										"bold": true,
+										"italic": false,
+										"extra": [
+											{
+												"type": "keybind",
+												"keybind": "key.swapOffhand",
+												"color": "#ffffff",
+												"extra": [
+													{
+														"text": "]",
+														"color": "#ffffff",
+														"extra": [
+															{
+																"text": "剑刃风暴",
+																"color": "green"
+															}
+														]
+													}
+												]
+											}
+										]
+									},
+									{
+										"text": "快速挥斩，然后发射一道聚合剑气，",
+										"color": "gray",
+										"italic": false
+									},
+									{
+										"text": "命中敌人时爆炸造成范围伤害并获得10层战意",
+										"color": "gray",
+										"italic": false
+									}
+								]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

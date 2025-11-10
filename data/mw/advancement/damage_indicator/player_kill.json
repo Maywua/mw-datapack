@@ -1,0 +1,10 @@
+{
+	"criteria": {
+		"1": {
+			"trigger": "player_killed_entity"
+		}
+	},
+	"rewards": {
+		"function": "mw:weapons/global/damage_indicator/player_kill"
+	}
+}

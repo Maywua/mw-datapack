@@ -1,0 +1,1 @@
+execute if predicate mw:weapons/holding/is_long_sword run function mw:weapons/long_sword/trigger/f_key

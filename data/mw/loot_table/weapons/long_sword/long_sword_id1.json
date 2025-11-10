@@ -1,0 +1,47 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "minecraft:item",
+					"name": "minecraft:iron_sword",
+					"functions": [
+						{
+							"function": "minecraft:set_components",
+							"components": {
+								"max_damage": 350,
+								"max_stack_size": 1,
+								"attribute_modifiers": [
+									{
+										"id": "base_attack_speed",
+										"amount": 2,
+										"operation": "add_value",
+										"type": "attack_speed",
+										"slot": "mainhand"
+									}
+								],
+								"custom_model_data": {
+									"floats": [0]
+								},
+								"item_model": "mw:weapons/long_sword/long_sword_id1",
+								"custom_data": {
+									"is_weapon": 1,
+									"weapon_type": "long_sword",
+									"weapon_id": 1,
+									"weapon_feature_id1": 1,
+									"weapon_feature_id2": 1
+								},
+								"item_name": {
+									"translate": "mw.weapons.long_sword_1.name",
+									"color": "#ffffff",
+									"italic": false
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

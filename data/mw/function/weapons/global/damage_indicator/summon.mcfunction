@@ -1,0 +1,2 @@
+execute if score @s player_critical_hit matches 1 run return run function mw:weapons/global/damage_indicator/summon_critical with storage mw:damage_indicator
+function mw:weapons/global/damage_indicator/summon_normal with storage mw:damage_indicator

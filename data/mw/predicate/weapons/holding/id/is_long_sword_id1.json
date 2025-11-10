@@ -1,0 +1,16 @@
+{
+	"condition": "minecraft:entity_properties",
+	"entity": "this",
+	"predicate": {
+		"equipment": {
+			"mainhand": {
+				"predicates": {
+					"custom_data": {
+						"weapon_type": "long_sword",
+						"weapon_id": 1
+					}
+				}
+			}
+		}
+	}
+}

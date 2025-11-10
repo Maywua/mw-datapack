@@ -1,0 +1,55 @@
+scoreboard objectives add player_is_sneaking dummy
+scoreboard objectives add player_left_clicked dummy
+scoreboard objectives add player_left_clicked_switch dummy
+scoreboard objectives add player_right_clicked dummy
+scoreboard objectives add player_critical_hit dummy
+scoreboard objectives add player_hit custom:damage_dealt
+scoreboard objectives add player_only_one_weapon dummy
+
+scoreboard objectives add player_is_holding_weapon dummy
+scoreboard objectives add player_is_holding_long_sword dummy
+scoreboard objectives add player_is_holding_great_sword dummy
+scoreboard objectives add player_offhand_is_weapon dummy
+
+scoreboard objectives add player_holding_item_type_1 dummy
+scoreboard objectives add player_holding_item_type_2 dummy
+scoreboard objectives add player_holding_item_changed dummy
+
+scoreboard objectives add player_ATK dummy
+scoreboard objectives add player_EHP dummy
+scoreboard objectives add player_CRIT_RAT dummy
+scoreboard objectives add player_CRIT_DMG dummy
+scoreboard objectives add player_CDR dummy
+scoreboard objectives add player_ATK_SPD dummy
+scoreboard objectives add player_BA_DMG dummy
+scoreboard objectives add player_SA_DMG dummy
+scoreboard objectives add player_CA_DMG dummy
+
+scoreboard objectives add weapons_animation_timer dummy
+scoreboard objectives add weapons_animation_max_time dummy
+scoreboard objectives add weapons_animation_uid dummy
+scoreboard objectives add weapons_interaction_uid dummy
+scoreboard objectives add weapons_ui_panel_id dummy
+function title:new_panel {id: "WeaponsUiPanel weapons_ui_panel_id"}
+scoreboard objectives add weapons_summon_timer dummy
+
+scoreboard objectives add entity_health_1 dummy
+scoreboard objectives add entity_health_2 dummy
+scoreboard objectives add entity_damage_taken dummy
+
+scoreboard objectives add weapons_skill_timer dummy
+scoreboard objectives add weapons_skill_max_time dummy
+
+scoreboard objectives add long_sword_energy dummy
+scoreboard objectives add long_sword_energy_cooldown dummy
+
+scoreboard objectives add ls_s0_cast_stage dummy
+scoreboard objectives add ls_s0_recast_timer dummy
+scoreboard objectives add ls_s0_cooldown_timer dummy
+scoreboard objectives add ls_s1_cast_stage dummy
+scoreboard objectives add ls_s1_recast_timer dummy
+scoreboard objectives add ls_s1_cooldown_timer dummy
+scoreboard objectives add ls_s2_cooldown_timer dummy
+scoreboard objectives add ls_s2_cooldown_transform dummy
+scoreboard objectives add ls_s3_cooldown_timer dummy
+scoreboard objectives add ls_s3_cooldown_transform dummy

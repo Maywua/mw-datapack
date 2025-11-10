@@ -1,0 +1,2 @@
+execute at @n[tag=damage_target_temp] facing entity @s eyes positioned ^ ^1 ^2 run function mw:weapons/global/damage_indicator/summon
+# execute as @n[tag=damage_target_temp] run data modify entity @s HurtTime set value 1

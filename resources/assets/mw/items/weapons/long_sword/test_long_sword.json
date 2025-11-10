@@ -1,0 +1,23 @@
+{
+	"hand_animation_on_swap": false,
+	"model": {
+		"type": "range_dispatch",
+		"property": "custom_model_data",
+		"entries": [
+			{
+				"model": {
+					"type": "model",
+					"model": "mw:weapons/long_sword/test_long_sword"
+				},
+				"threshold": 0
+			},
+			{
+				"model": {
+					"type": "model",
+					"model": "mw:weapons/long_sword/test_long_sword_invisible"
+				},
+				"threshold": 1
+			}
+		]
+	}
+}

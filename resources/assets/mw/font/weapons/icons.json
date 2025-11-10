@@ -1,0 +1,101 @@
+{
+	"providers": [
+		{
+			"type": "space",
+			"advances": {
+				"\u0001": -20.5
+			}
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/energy_0.png",
+			"height": 20,
+			"ascent": 12,
+			"chars": ["\u0100"]
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/energy_1.png",
+			"height": 20,
+			"ascent": 12,
+			"chars": ["\u0101"]
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/energy_2.png",
+			"height": 20,
+			"ascent": 12,
+			"chars": ["\u0102"]
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/energy_3.png",
+			"height": 20,
+			"ascent": 12,
+			"chars": ["\u0103"]
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/energy_4.png",
+			"height": 20,
+			"ascent": 12,
+			"chars": ["\u0104"]
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/energy_5.png",
+			"height": 20,
+			"ascent": 12,
+			"chars": ["\u0105"]
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/energy_6.png",
+			"height": 20,
+			"ascent": 12,
+			"chars": ["\u0106"]
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/energy_7.png",
+			"height": 20,
+			"ascent": 12,
+			"chars": ["\u0107"]
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/energy_8.png",
+			"height": 20,
+			"ascent": 12,
+			"chars": ["\u0108"]
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/energy_9.png",
+			"height": 20,
+			"ascent": 12,
+			"chars": ["\u0109"]
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/energy_10.png",
+			"height": 20,
+			"ascent": 12,
+			"chars": ["\u0110"]
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/long_sword_skill2.png",
+			"height": 16,
+			"ascent": 12,
+			"chars": ["\u0111"]
+		},
+		{
+			"type": "bitmap",
+			"file": "mw:font/weapon_icons/long_sword/long_sword_skill3.png",
+			"height": 16,
+			"ascent": 12,
+			"chars": ["\u0112"]
+		}
+	]
+}

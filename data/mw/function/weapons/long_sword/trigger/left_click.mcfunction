@@ -1,0 +1,1 @@
+function mw:weapons/long_sword/skills/0/trigger

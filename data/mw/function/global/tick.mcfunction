@@ -1,0 +1,1 @@
+execute as @a store success score @s player_is_sneaking if predicate mw:player/is_sneaking

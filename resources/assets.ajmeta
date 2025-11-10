@@ -1,0 +1,82 @@
+{
+	"formatVersion": "1.0.0",
+	"rigs": {
+		"blueprint": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/blueprint/1.json",
+				"assets/animated_java/items/blueprint/blueprint/2.json",
+				"assets/animated_java/items/blueprint/blueprint/3.json",
+				"assets/animated_java/items/blueprint/blueprint/4.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/blueprint/1.json",
+				"assets/animated_java/models/blueprint/blueprint/2.json",
+				"assets/animated_java/models/blueprint/blueprint/3.json",
+				"assets/animated_java/models/blueprint/blueprint/4.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/blueprint/texture.png"
+			]
+		},
+		"long_sword_id1": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/long_sword_id1/effect1.json",
+				"assets/animated_java/items/blueprint/long_sword_id1/sword.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/long_sword_id1/effect1.json",
+				"assets/animated_java/models/blueprint/long_sword_id1/sword.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/long_sword_id1/effect_slash.png",
+				"assets/animated_java/textures/blueprint/long_sword_id1/long_sword_id1.png"
+			]
+		},
+		"mw": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/mw/1.json",
+				"assets/animated_java/items/blueprint/mw/2.json",
+				"assets/animated_java/items/blueprint/mw/3.json",
+				"assets/animated_java/items/blueprint/mw/4.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/mw/1.json",
+				"assets/animated_java/models/blueprint/mw/2.json",
+				"assets/animated_java/models/blueprint/mw/3.json",
+				"assets/animated_java/models/blueprint/mw/4.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/mw/texture.png"
+			]
+		},
+		"test_long_sword": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/test_long_sword/1.json",
+				"assets/animated_java/items/blueprint/test_long_sword/2.json",
+				"assets/animated_java/items/blueprint/test_long_sword/3.json",
+				"assets/animated_java/items/blueprint/test_long_sword/4.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/test_long_sword/1.json",
+				"assets/animated_java/models/blueprint/test_long_sword/2.json",
+				"assets/animated_java/models/blueprint/test_long_sword/3.json",
+				"assets/animated_java/models/blueprint/test_long_sword/4.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/test_long_sword/test_long_sword.png"
+			]
+		},
+		"test_sword_model": {
+			"coreFiles": ["assets/minecraft/atlases/blocks.json", "pack.mcmeta"],
+			"versionedFiles": [
+				"assets/animated_java/items/blueprint/test_sword_model/1.json",
+				"assets/animated_java/items/blueprint/test_sword_model/2.json",
+				"assets/animated_java/items/blueprint/test_sword_model/3.json",
+				"assets/animated_java/items/blueprint/test_sword_model/4.json",
+				"assets/animated_java/items/empty.json",
+				"assets/animated_java/models/blueprint/test_sword_model/1.json",
+				"assets/animated_java/models/blueprint/test_sword_model/2.json",
+				"assets/animated_java/models/blueprint/test_sword_model/3.json",
+				"assets/animated_java/models/blueprint/test_sword_model/4.json",
+				"assets/animated_java/models/empty.json",
+				"assets/animated_java/textures/blueprint/test_sword_model/texture.png"
+			]
+		}
+	}
+}

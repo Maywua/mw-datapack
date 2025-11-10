@@ -1,0 +1,1 @@
+execute if score @s player_is_holding_long_sword matches 1.. run function mw:weapons/long_sword/trigger/shift_key
